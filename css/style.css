@@ -1,7 +1,7 @@
 html {
-	background-color: #00002e;
-	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-	color: white;
+background-color: #00002e;
+font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+color: white;
 }
 .topo {
 	display: flex;
@@ -30,6 +30,11 @@ html {
 .pg__home__list__item img {
 	width: 186px;
 }
+.addPerfil img {
+	width: 90px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
 footer {
 	display: flex;
 	justify-content: center;
@@ -41,12 +46,9 @@ button {
 	padding: 15px 30px;
 }
 
-
 @media (min-width:320px) and (max-width:480px) {
 	.topo {
 		justify-content: center;
-		align-content: center;
-
 	}
 	.pg__home__list__item {
 		font-size: 18px;
@@ -54,6 +56,19 @@ button {
 	.pg__home h2 {
 		font-size: 36px;
 	}
+}
 
+@media (min-width:481px) and (max-width:768px) {
+	.topo {
+		justify-content: center;
+	}
+	.pg__home__list__item {
+		margin-left: 15px;
+	}
+}
 
+@media (min-width: 769px) and (max-width: 1024px) {
+	.topo {
+		justify-content: center;
+	}
 }
